@@ -8,12 +8,16 @@ A simple REST API for managing a to-do list application with features like creat
 Create a new task.
 
 **Request Body:**
+
+here status is by default pending
+
 ```json
 {
     "title": "Task Title",
     "description": "Task Description",
-    "status": "pending" (optional field by deafault it will be pending)
+    "status": "pending" 
 } 
+```
 
 
 ### 2. GET /api/v1/tasks
@@ -24,6 +28,13 @@ Fetch a task by its ID.
 
 ### 4. PUT /api/v1/tasks/:id
 Update a task's status (pending, in-progress, completed).
+
+**Request Body:**
+```json
+{
+    "status": "in-progress"  // Status can be "pending", "in-progress", or "completed"
+}
+```
 
 ### 5. DELETE /api/v1/tasks/:id
 Delete a task by its ID.
