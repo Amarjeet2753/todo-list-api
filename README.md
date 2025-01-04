@@ -33,6 +33,7 @@ Follow these steps to run the project locally:
 
 ## 1. Clone the repository:
 git clone https://github.com/Amarjeet2753/todo-list-api.git
+
 cd todo-list-api
 
 ## 2.Install dependencies:
@@ -40,6 +41,7 @@ npm install
 
 ## 3.Create a .env file in the root directory and add your MongoDB connection string:
 MONGO_DB_URI=mongodb+srv://<your-username>:<your-password>@cluster0.eagen.mongodb.net/todoApp?retryWrites=true&w=majority
+
 PORT=8080
 
 ## 4.Start the server:
