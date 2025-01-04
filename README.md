@@ -8,7 +8,7 @@ A simple REST API for managing a to-do list application with features like creat
 Create a new task.
 
 **Request Body:**
-
+```json
 {
     "title": "Task Title",
     "description": "Task Description",
