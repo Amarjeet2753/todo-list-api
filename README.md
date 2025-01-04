@@ -13,4 +13,9 @@ Create a new task.
     "title": "Task Title",
     "description": "Task Description",
     "status": "pending"
-}
+} ```
+
+
+### 2. GET /api/v1/tasks
+Fetch all tasks.
+
